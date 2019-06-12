@@ -1,4 +1,4 @@
-/*
+package ru.stqa.pft.sandbox;/*
 Это пример простой программы на Java.
 Присвойте файлу с исходным кодом имя Example.java.
 */
