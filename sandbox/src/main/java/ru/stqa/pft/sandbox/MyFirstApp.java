@@ -6,6 +6,7 @@ package ru.stqa.pft.sandbox;/*
 public class MyFirstApp {
   // Выполнение любой программы на Java начинается
   // с вызова метода main()
+
   public static void main (String[] args) {
     hello("world");
     hello("user");
