@@ -10,5 +10,25 @@ public class MyFirstApp {
     System.out.println ("Я управляю");
     System.out.println("миром");
     System.out.println("как никто");
+
+    // Выражения и операции
+    System.out.println(2 + 2);
+    System.out.println(2 * 2);
+    System.out.println(2 / 2);
+    System.out.println(2 - 2);
+
+    System.out.println(1 / 2);
+    System.out.println(1.0 / 2);
+    System.out.println(1 / 2.0);
+    System.out.println(2.0 / 2);
+
+    System.out.println("2" + "2 ");
+    System.out.println("2" + 2);
+    System.out.println(2 + "2");
+
+    System.out.println(2 + 2 * 2);
+    System.out.println((2 + 2) * 2);
+
+    System.out.println("2 + 2  = " + (2 + 2));
   }
 }
