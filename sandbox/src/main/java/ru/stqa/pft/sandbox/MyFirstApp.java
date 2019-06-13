@@ -11,57 +11,16 @@ public class MyFirstApp {
     hello("user");
     hello("Danil");
 
-    double len = 5;
-    System.out.println("Площадь квадрата со стороной " + len + " = " + area(len));
-
-    double a = 4;
-    double b = 6;
-    System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
-
-    // Выражения и операции
-    System.out.println(2 + 2);
-    System.out.println(2 * 2);
-    System.out.println(2 / 2);
-    System.out.println(2 - 2);
-
-    System.out.println(1 / 2);
-    System.out.println(1.0 / 2);
-    System.out.println(1 / 2.0);
-    System.out.println(2.0 / 2);
-
-    System.out.println("2" + "2 ");
-    System.out.println("2" + 2);
-    System.out.println(2 + "2");
-
-    System.out.println(2 + 2 * 2);
-    System.out.println((2 + 2) * 2);
-
-    System.out.println("2 + 2  = " + (2 + 2));
-
-    //Переменные и значения
-    //Значения - кусочек данных, которых хранится в памяти компьютера
-    //Литеральные значения - явно описаны в коде программы
-    //Вычислимые значения - результат вычисления какого-то выражения (склеивание строк или ариф.операция)
-    //Переменная - идентификатор, который ссылается на значение, хранящиеся в памяти компьютера
-    double l = 6.0;
-    double s = l * l;
-    System.out.println("Площадь квадрата со стороной " + l + " = " + s);
+    Square s = new Square(7);
+    System.out.println("Площадь квадрата со стороной " + s.l + " = " + s.area());
 
 
-
+    Rectangle r = new Rectangle(5,7 );
+    System.out.println("Площадь прямоугольника со сторонами " + r.a + " и " + r.b + " = " + r.area());
   }
 
   public static void hello(String somebody) {
     System.out.println("Hello, " + somebody + "!");
 
   }
-
-  public static double area (double r) {
-    return  r * r;
-  }
-
-  public static double area(double a, double b) {
-    return a * b;
-  }
-
 }
